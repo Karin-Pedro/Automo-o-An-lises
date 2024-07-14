@@ -2,7 +2,7 @@ import pandas as pd
 import os
 
 
-def ler_planilha(file_name='first_feedbacks_for_test.xlsx'):
+def ler_planilha(file_name):
     file_path = os.path.join(os.path.dirname(__file__), '../../resources', file_name)
 
     # Normalizar o caminho para garantir compatibilidade com diferentes sistemas operacionais
