@@ -44,7 +44,4 @@ def remover_colunas_escala(df):
     return df_filtrado
 
 
-if __name__ == "__main__":
-    df = ler_planilha()
-
 
